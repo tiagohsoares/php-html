@@ -22,6 +22,10 @@
                 ]
 
             ];
+
+            $flterBooks = array_filter($livros, function ($livros) {
+                return $books['autor'] == 'J. K. Rowling';
+            });
         ?>
 
          <ul>
