@@ -24,7 +24,7 @@
             ];
 
             $flterBooks = array_filter($livros, function ($livros) {
-                return $books['autor'] == 'J. K. Rowling';
+                return $livros['autor'] == 'J. K. Rowling';
             });
         ?>
 
