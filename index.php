@@ -44,12 +44,3 @@
          </ul>
 </body>
 </html>
-<?php
-
-//$_GET
-//$_POST
-//$TOTAL = abs("$x")
-//$TOTAL = round("$x")
-//$TOTAL = ceil("$x")
-//$TOTAL = ceil("$x")
-//$TOTAL = pow("$x,$y")
