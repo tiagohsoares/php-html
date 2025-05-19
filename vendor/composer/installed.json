@@ -1,0 +1,58 @@
+{
+    "packages": [
+        {
+            "name": "canducci/cep",
+            "version": "v3.1.2",
+            "version_normalized": "3.1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/netdragoon/canduccicep.git",
+                "reference": "e541dd7c9b55cfdd823698b5ea530e0f4abb4cd2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/netdragoon/canduccicep/zipball/e541dd7c9b55cfdd823698b5ea530e0f4abb4cd2",
+                "reference": "e541dd7c9b55cfdd823698b5ea530e0f4abb4cd2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.3.2"
+            },
+            "require-dev": {
+                "illuminate/support": "8.83.2",
+                "phpspec/phpspec": "7.5.0",
+                "phpunit/phpunit": "8.5.41"
+            },
+            "time": "2024-12-12T14:13:32+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src/Canducci/Cep/Helpers/cep_helper.php",
+                    "src/Canducci/Cep/Helpers/uf_helper.php"
+                ],
+                "psr-4": {
+                    "Canducci\\Cep\\": "src/Canducci/Cep/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fulvio",
+                    "email": "fulviocanducci@hotmail.com"
+                }
+            ],
+            "description": "CEP do Brasil Web Service ViaCep (https://viacep.com.br)",
+            "support": {
+                "issues": "https://github.com/netdragoon/canduccicep/issues",
+                "source": "https://github.com/netdragoon/canduccicep/tree/v3.1.2"
+            },
+            "install-path": "../canducci/cep"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
